@@ -1,0 +1,26 @@
+{% macro content(spec) %}
+
+{% set spec = spec or {} %}
+
+
+<nav class="{{spec.class}}">
+
+
+<p> {{spec.class}} </p>
+
+{% if spec.super %}
+estoo es super
+{% endif %}
+
+
+
+
+
+  <p>This is an example paragraph for the nav module</p>
+
+
+
+
+
+</nav>
+{% endmacro %}
